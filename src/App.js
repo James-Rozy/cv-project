@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import CVContent from './components/CVContent';
 import Footer from './components/Footer';
 import './styles/App.css';
 
@@ -12,6 +13,7 @@ class App extends Component {
     return (
       <div className='App'>
         <Header />
+        <CVContent />
         <Footer />
       </div>
     );
