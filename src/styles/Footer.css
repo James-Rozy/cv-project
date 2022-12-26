@@ -1,0 +1,13 @@
+.page-footer {
+  min-height: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-footer>p {
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: black;
+}
