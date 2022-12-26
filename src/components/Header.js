@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/Header.css';
 
 class Header extends Component {
   constructor() {
@@ -7,8 +8,8 @@ class Header extends Component {
 
   render() {
     return (
-      <header>
-        <h1>Curriculum Vitae</h1>
+      <header className='page-header'>
+        <h1>Curriculum Vitae Builder</h1>
       </header>
     );
   }
