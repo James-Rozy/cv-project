@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import CustomInput from "./CustomInput";
 
 class CVGeneral extends Component {
   constructor() {
@@ -7,7 +8,14 @@ class CVGeneral extends Component {
 
   render() {
     return(
-      <div></div>
+      <section>
+        <h3>General Information</h3>
+        <div className='general-inputs'>
+          <CustomInput name='name' label='Name' type='text' isRequired={true}/>
+          <CustomInput name='email' label='Email' type='email' isRequired={true}/>
+          <CustomInput name='phone' label='Phone' type='tel' isRequired={true}/>
+        </div>
+      </section>
     );
   }
 }
