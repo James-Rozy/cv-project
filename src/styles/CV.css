@@ -1,0 +1,12 @@
+.cv-main {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cv-content {
+  padding: 30px 20px;
+  box-shadow: 0 5px 10px var(--shadow);
+}
