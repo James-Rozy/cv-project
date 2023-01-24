@@ -2,14 +2,32 @@
   min-height: 64px;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #eee;
-  box-shadow: 0 5px 10px var(--shadow);
+  box-shadow: 0 2px 4px var(--shadow);
 }
 
-.page-header>h1 {
+.page-header h1 {
   font-size: 2rem;
   font-weight: 100;
   color: black;
+}
+
+.header-input-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.header-btn-edit {
+  background-color: var(--orange-400);
+}
+
+.header-btn-save {
+  background-color: var(--green-500);
+}
+
+.header-btn-export {
+  background-color: var(--blue-500);
 }
