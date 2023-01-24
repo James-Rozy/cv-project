@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import CustomInput from "./CustomInput";
+import React, { Component } from 'react';
+import CustomInput from './CustomInput';
 
 class CVGeneral extends Component {
   constructor() {
@@ -7,13 +7,28 @@ class CVGeneral extends Component {
   }
 
   render() {
-    return(
-      <section>
+    return (
+      <section className='cv-section'>
         <h3>General Information</h3>
-        <div className='general-inputs'>
-          <CustomInput name='name' label='Name' type='text' isRequired={true}/>
-          <CustomInput name='email' label='Email' type='email' isRequired={true}/>
-          <CustomInput name='phone' label='Phone' type='tel' isRequired={true}/>
+        <div className='cv-inputs'>
+          <CustomInput
+            name='name'
+            label='Name'
+            type='text'
+            isRequired={true}
+          />
+          <CustomInput
+            name='email'
+            label='Email'
+            type='email'
+            isRequired={true}
+          />
+          <CustomInput
+            name='phone'
+            label='Phone'
+            type='tel'
+            isRequired={true}
+          />
         </div>
       </section>
     );
