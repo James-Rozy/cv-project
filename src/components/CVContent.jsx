@@ -11,12 +11,19 @@ class CVContent extends Component {
   render() {
     return (
       <main className='container'>
-        <div className='content'>
+        <div
+          id='input-content'
+          className='content'
+        >
           <h2 className='cv-header'>CV Content</h2>
           <CVGeneral />
           <CVEducation />
           <CVPractical />
         </div>
+        <div
+          id='preview-content'
+          className='content'
+        ></div>
       </main>
     );
   }
