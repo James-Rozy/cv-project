@@ -1,0 +1,14 @@
+.page-header {
+  min-height: 64px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-primary-darker);
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #fff;
+  }
+}
